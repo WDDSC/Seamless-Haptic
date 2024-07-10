@@ -4,8 +4,8 @@
 
 【使用方法】
 1. 使用网线连接Phantom Omni设备并上电，过20秒后按一下pairing按钮
-2. 打开QgcServerSim_v2021a.slx
-3. 运行QgcServerSim_v2021a.slx
+2. 打开OmniServerSim_vxxxx.slx
+3. 运行OmniServerSim_vxxxx.slx
 4. 双击运行Omni_Comm.exe
 5. 观察Omni_Comm.exe控制台输出，若无报错则下一步，否则等待其每10秒自动重启
 6. 正常使用Omni设备，即可在slx的scope中看到实时获取的Omni信号，Omni_Comm.exe也会实时输出Omni末端位姿信号
@@ -20,7 +20,7 @@
 
    2.3 若观察到Omni_Comm.exe输出Omni末端位姿信号后报错并进入重启倒计时，请尝试按Omni的pairing按钮，若无效则重启Omni并执行上述步骤1.
 
-14. slx中的仿真步长可调整（默认为0.01），但请勿超过0.1、小于0.002、或设置为动态步长
+14. slx中的仿真步长可调整（默认为0.002），但请勿超过0.1、小于0.002、或设置为动态步长
 15. slx中支持增添其他模块，包括：
 
 	4.1. 绝大部分不涉及IP网络通信的模块
